@@ -118,10 +118,10 @@ body {
 }
 
 main {
-  max-width: 800px;
-  margin: 0 auto;
-  padding: 2rem 1rem;
-  min-height: calc(100vh - 200px);
+  max-width: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 2rem;
 }
 
 .home-intro {
@@ -514,9 +514,12 @@ main {
     padding: 1rem;
   }
   
-  .site-header .wrapper {
-    padding: 0 1rem;
-  }
+ .site-header .wrapper {
+  max-width: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0 2rem; /* some breathing room */
+}
   
   .site-nav .nav-links {
     gap: 1rem;
