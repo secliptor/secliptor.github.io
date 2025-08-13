@@ -1,0 +1,36 @@
+title: Secliptor
+tagline: Cybersecurity Writeups & Updates
+description: Your hub for cybersecurity writeups & updates
+url: "https://secliptor.github.io"
+baseurl: ""
+
+# Build settings
+markdown: kramdown
+highlighter: rouge
+theme: minima
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+
+# Exclude from processing
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
+
+# Pagination
+paginate: 5
+paginate_path: "/page:num/"
+
+# Social links (optional)
+github_username: secliptor
+
+# Show excerpts on homepage
+show_excerpts: true
+
+# Date format
+date_format: "%B %d, %Y"
